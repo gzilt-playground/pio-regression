@@ -1,4 +1,4 @@
-# PredictionIO Regression-Template
+# PredictionIO Regression Template
 ## Overview
 An engine template is an almost-complete implementation of an engine. In this Engine Template, we have integrated Apache Spark MLlib's Linear Regression algorithm by default.
 
@@ -72,8 +72,8 @@ $ pio status
 Clone the current repository by executing the following command in the directory where you want the code to reside:
     
 ```
-git clone https://github.com/RAditi/PredictionIO-MLLib-LinReg-Template.git
-cd PredictionIO-MLLib-LinReg-Template
+git clone https://github.com/gzilt/pio-regression.git
+cd pio-regression
 ```
 ## Generate an App ID and Access Key
 Let's assume you want to use this engine in an application named "MyApp1". You will need to collect some training data for machine learning modeling. You can generate an App ID and Access Key that represent "MyApp1" on the Event Server easily:
@@ -165,7 +165,7 @@ If the "intercept" parameter is set to 1, then the linear regression model is tr
 ```
 ### Build
 
-Start with building your PredictionIO-MLLib-LinReg-Template engine.
+Start with building your pio-regression engine.
 ```
 $ pio build
 ```
