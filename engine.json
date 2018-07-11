@@ -1,0 +1,19 @@
+{
+  "id": "4",
+  "description": "Default settings",
+  "engineFactory": "com.github.gzilt.regression.RegressionEngine",
+  "datasource": {
+    "params": {
+      "appName": "pio-regression"
+    }
+  },
+  "algorithms": [
+    {
+      "name": "sgd",
+      "params": {
+        "iterations": 100,
+        "stepSize": 0.01
+      }
+    }
+  ]
+}
